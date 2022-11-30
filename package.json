@@ -1,0 +1,14 @@
+{
+  "name": "viter",
+  "version": "1.0.0",
+  "description": "Vite auto starter using template search",
+  "main": "index.js",
+  "repository": "https://github.com/adiled/viter",
+  "author": "Adil Shaikh",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "prompts": "^2.4.2"
+  }
+}
