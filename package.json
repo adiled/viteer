@@ -2,6 +2,7 @@
   "name": "viter",
   "version": "1.0.0",
   "description": "Vite auto starter using template search",
+  "type": "module",
   "main": "index.js",
   "repository": "https://github.com/adiled/viter",
   "author": "Adil Shaikh",
@@ -9,6 +10,9 @@
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
+    "degit": "^2.8.4",
+    "fuse.js": "^6.6.2",
+    "node-fetch": "^3.3.0",
     "prompts": "^2.4.2"
   }
 }
