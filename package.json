@@ -1,6 +1,6 @@
 {
   "name": "viter",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Vite auto starter using template search",
   "type": "module",
   "main": "index.js",

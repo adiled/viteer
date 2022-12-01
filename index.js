@@ -28,14 +28,14 @@ const SYNONYMS = {
 };
 
 const MANIFEST_URL = 'https://raw.githubusercontent.com/adiled/viter/main/manifest.json';
-
+const MANIGEST_URL = 'https://raw.githubusercontent.com/adiled/viter/main/manifest.json';
 let manifest;
 
 try {
-  manifest = JSON.parse(await (await fetch(MANIFEST_URL)).json())
+  manifest = await (await fetch(MANIFEST_URL)).json()
 } catch (e) {
   // @todo: fallback to local file here
-  console.error("ERROR::MANIFEST_NOT_FOUND");
+  console.error("ERROR::MANIFEST_NOT_FOUND", e);
   process.exit();
 }
 
@@ -44,6 +44,9 @@ const fuse = new Fuse(manifest, {
   keys: ['tokens'],
   threshold: 0.001,
 });
+
+async function makeScaffolding() {
+}
 
 (async () => {
 
@@ -71,9 +74,11 @@ const fuse = new Fuse(manifest, {
   const results = fuse.search({
     $and: searchTerms.map(term => ({tokens: term.replace('-',' ')}))
   });
-  console.log(results.length, results.splice(0,1));
+  console.log(results.length, results.slice(0,1));
 
   if (wantMore) {
     console.log('not atm, soz');
   }
+
+  makeScaffolding();
 })();
