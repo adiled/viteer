@@ -1,7 +1,7 @@
 {
-  "name": "vitel",
+  "name": "viteld",
   "version": "0.1.0",
-  "description": "Vitel (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
+  "description": "Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
   "type": "module",
   "main": "index.js",
   "bin": "node index.js",
@@ -18,13 +18,13 @@
     "template",
     "awesome"
   ],
-  "repository": "https://github.com/adiled/vitel",
+  "repository": "https://github.com/adiled/viteld",
   "bugs": {
-    "url": "https://github.com/adiled/vitel/issues"
+    "url": "https://github.com/adiled/viteld/issues"
   },
   "author": "Adil Shaikh <hello@adils.me> (https://adils.me)",
   "license": "MIT",
-  "homepage": "https://github.com/adiled/vitel#readme",
+  "homepage": "https://github.com/adiled/viteld#readme",
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
