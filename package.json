@@ -1,6 +1,6 @@
 {
   "name": "viter",
-  "version": "0.1.0",
+  "version": "0.1.0-dev",
   "description": "Vite auto-starter CLI — scaffold a project from a single prompt",
   "type": "module",
   "main": "index.js",
@@ -11,9 +11,12 @@
   "keywords": [
     "vite",
     "scaffolding",
-    "vite-create",
+    "create-vite",
     "starter",
-    "scaffolder"
+    "scaffolder",
+    "vite-awesome",
+    "template",
+    "awesome"
   ],
   "repository": "https://github.com/adiled/viter",
   "bugs": {
