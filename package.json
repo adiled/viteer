@@ -4,7 +4,9 @@
   "description": "Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
   "type": "module",
   "main": "index.js",
-  "bin": "node index.js",
+  "bin": {
+    "viteld": "node index.js"
+  },
   "engines": {
     "node": "^18"
   },
