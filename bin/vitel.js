@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+J=S//;echo "\n\n$(sed "1,2d" "$0")"|node --input-type=module "$@";exit $?
+
 import prompts from 'prompts';
 import Fuse from 'fuse.js';
 import fetch from 'node-fetch';

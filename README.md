@@ -18,13 +18,13 @@
 ## Usage
 
 ```sh
-$ npx viteld
+$ npx vitel
 ```
 
 Example prompt
 
 ```console
-dev@vite:~$ npx viteld
+dev@vite:~$ npx vitel
 ? Type your stack away, space-separated: react ts tailwind redux-toolkit
 ```
 

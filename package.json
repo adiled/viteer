@@ -1,11 +1,12 @@
 {
   "name": "viteld",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "viteld": "node index.js"
+    "viteld": "./bin/vitel.js",
+    "vitel": "./bin/vitel.js"
   },
   "engines": {
     "node": "^18"
