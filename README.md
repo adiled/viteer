@@ -1,6 +1,15 @@
-# Viter
-
-Viter CLI takes a single prompt
+<h1 align="center">:deer:<br>Viter</h1>
+<p align="center">
+  <a href="https://www.npmjs.com/package/viter" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/viter.svg">
+  </a>
+  <img src="https://img.shields.io/badge/node-%5E18-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <br>  
+  Vite auto-starter CLI — scaffold a project from a single prompt
+</p>
 
 - :speech_balloon: Filter templates by a single search prompt
 
@@ -9,20 +18,27 @@ Viter CLI takes a single prompt
 ## Usage
 
 ```sh
-npx viter
+$ npx viter
 ```
 
 Example prompt
 
-```sh
+```console
+dev@vite:~$ npx viter
 ? Type your stack away, space-separated: react ts tailwind redux-toolkit
 ```
 
+## Author
+
+👤 **Adil Shaikh <hello@adils.me> (https://adils.me)**
+
+- Website: http://www.adils.me
+- Github: [@adiled](https://github.com/adiled)
+
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/adiled/viter/issues).
 
-## License
+## Show your support
 
-[MIT](https://github.com/adiled/viter/blob/main/LICENSE)
+Give a ⭐️ if this project helped you!

@@ -5,6 +5,9 @@
   "type": "module",
   "main": "index.js",
   "bin": "node index.js",
+  "engines": {
+    "node": "^18"
+  },
   "keywords": [
     "vite",
     "scaffolding",
