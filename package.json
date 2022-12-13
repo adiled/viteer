@@ -1,12 +1,24 @@
 {
   "name": "viter",
   "version": "0.1.0",
-  "description": "Vite auto starter using template search",
+  "description": "Vite auto-starter CLI — scaffold a project from a single prompt",
   "type": "module",
   "main": "index.js",
+  "bin": "node index.js",
+  "keywords": [
+    "vite",
+    "scaffolding",
+    "vite-create",
+    "starter",
+    "scaffolder"
+  ],
   "repository": "https://github.com/adiled/viter",
-  "author": "Adil Shaikh",
+  "bugs": {
+    "url": "https://github.com/adiled/viter/issues"
+  },
+  "author": "Adil Shaikh <hello@adils.me> (https://adils.me)",
   "license": "MIT",
+  "homepage": "https://github.com/adiled/viter#readme",
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",

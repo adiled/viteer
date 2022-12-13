@@ -5,6 +5,22 @@ import fs from 'fs';
 
 const MANIFEST_FILE_NAME = 'manifest.json';
 
+// do-not-use: rewrite for rate-limiting first, not feasible on public api 
+async function hydrateManifest() {
+  return manifest.map(async (item) => {
+    let repoStats;
+    try {
+      repoStats = await (await fetch(`https://api.github.com/repos/${item.id}`)).json()
+    } catch (e) {
+    }
+    console.log(repoStats);
+    return {
+      ...item,
+      stars: repoStats?.stargazers_counts
+    }
+  });
+}
+
 async function makeManifest() {
   let manifest = [];
 
@@ -29,7 +45,8 @@ async function makeManifest() {
     const lines = portion.trim().split('\n');
     const category = lines[0];
     manifest.push(...lines.slice(2).map(line => {
-      const [string, n, name, u, url, desc] = line.match(linePattern);
+      console.log(line.match(linePattern));
+      const [string, , name, , url, desc] = line.match(linePattern);
       const delimiter = /, and | and |, |\s\+\s|\+/;
       const description = desc.replace(/\.+$/, "");
       return {
@@ -42,6 +59,7 @@ async function makeManifest() {
       };
     }));
   });
+
   console.log(chalk.greenBright('_'), `Fetched ${manifest.length} templates`);
   return manifest;
 }
