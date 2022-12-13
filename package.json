@@ -1,6 +1,6 @@
 {
   "name": "viteld",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
   "type": "module",
   "main": "index.js",
