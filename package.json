@@ -1,7 +1,7 @@
 {
-  "name": "viter",
-  "version": "0.1.0-dev",
-  "description": "Vite auto-starter CLI — scaffold a project from a single prompt",
+  "name": "vitel",
+  "version": "0.1.0",
+  "description": "Vitel (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
   "type": "module",
   "main": "index.js",
   "bin": "node index.js",
@@ -18,13 +18,13 @@
     "template",
     "awesome"
   ],
-  "repository": "https://github.com/adiled/viter",
+  "repository": "https://github.com/adiled/vitel",
   "bugs": {
-    "url": "https://github.com/adiled/viter/issues"
+    "url": "https://github.com/adiled/vitel/issues"
   },
   "author": "Adil Shaikh <hello@adils.me> (https://adils.me)",
   "license": "MIT",
-  "homepage": "https://github.com/adiled/viter#readme",
+  "homepage": "https://github.com/adiled/vitel#readme",
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
