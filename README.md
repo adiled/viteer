@@ -1,14 +1,14 @@
-<h1 align="center">:deer:<br>Viteld</h1>
+<h1 align="center">:deer:<br>Viteer</h1>
 <p align="center">
-  <a href="https://www.npmjs.com/package/viteld" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/viteld.svg">
+  <a href="https://www.npmjs.com/package/viteer" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/viteer.svg">
   </a>
   <img src="https://img.shields.io/badge/node-%5E18-blue.svg" />
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <br>  
-  Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt
+  Viteer (pronounced veet·ear) CLI — scaffold a vite project from a single prompt
 </p>
 
 - :speech_balloon: Filter templates by a single search prompt
@@ -18,13 +18,13 @@
 ## Usage
 
 ```sh
-$ npx vitel
+$ npm i -g viteer
 ```
 
 Example prompt
 
 ```console
-dev@vite:~$ npx vitel
+dev@vite:~$ viteer
 ? Type your stack away, space-separated: react ts tailwind redux-toolkit
 ```
 

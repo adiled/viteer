@@ -1,12 +1,12 @@
 {
-  "name": "viteld",
-  "version": "0.1.5",
-  "description": "Viteld (pronounced vee·tl) CLI — scaffold a vite project from a single prompt",
+  "name": "viteer",
+  "version": "0.1.0",
+  "description": "Viteer (pronounced veet·ear) CLI — scaffold a vite project from a single prompt",
   "type": "module",
-  "main": "index.js",
+  "main": "bin/viteer.js",
   "bin": {
-    "viteld": "./bin/vitel.js",
-    "vitel": "./bin/vitel.js"
+    "viteld": "./bin/viteer.js",
+    "vitel": "./bin/viteer.js"
   },
   "engines": {
     "node": "^18"
@@ -21,13 +21,13 @@
     "template",
     "awesome"
   ],
-  "repository": "https://github.com/adiled/viteld",
+  "repository": "https://github.com/adiled/viteer",
   "bugs": {
-    "url": "https://github.com/adiled/viteld/issues"
+    "url": "https://github.com/adiled/viteer/issues"
   },
   "author": "Adil Shaikh <hello@adils.me> (https://adils.me)",
   "license": "MIT",
-  "homepage": "https://github.com/adiled/viteld#readme",
+  "homepage": "https://github.com/adiled/viteer#readme",
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
